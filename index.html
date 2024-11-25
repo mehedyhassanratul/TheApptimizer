@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheApptimizer - Social Links</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-picker">
+        <button class="theme-toggle" title="Change Theme">
+            <i class="fas fa-palette"></i>
+        </button>
+        <div class="theme-options">
+            <button class="theme-option" data-theme="red" style="--theme-color: #ef5350">
+                <span class="color-preview"></span>
+                <span class="color-name">Ruby Red</span>
+            </button>
+            <button class="theme-option" data-theme="purple" style="--theme-color: #7e57c2">
+                <span class="color-preview"></span>
+                <span class="color-name">Royal Purple</span>
+            </button>
+            <button class="theme-option" data-theme="blue" style="--theme-color: #42a5f5">
+                <span class="color-preview"></span>
+                <span class="color-name">Ocean Blue</span>
+            </button>
+            <button class="theme-option" data-theme="green" style="--theme-color: #66bb6a">
+                <span class="color-preview"></span>
+                <span class="color-name">Forest Green</span>
+            </button>
+            <button class="theme-option" data-theme="orange" style="--theme-color: #ffa726">
+                <span class="color-preview"></span>
+                <span class="color-name">Sunset Orange</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="background-effects">
+        <div class="animated-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="gradient-sphere"></div>
+        <div class="gradient-sphere"></div>
+        <div class="gradient-sphere"></div>
+    </div>
+
+    <main class="container">
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <div class="profile-image-wrapper">
+                    <img src="assets/profile.jpg" alt="Profile Picture" class="profile-image" onerror="this.src='https://ui-avatars.com/api/?name=The+Apptimizer&background=random'">
+                    <div class="profile-image-overlay"></div>
+                </div>
+                <div class="profile-image-border"></div>
+            </div>
+            <h1>TheApptimizer</h1>
+            <div class="bio-section">
+                <p class="bio-text">Welcome to my digital space! Connect with me on various platforms.</p>
+                <div class="bio-divider">
+                    <span class="divider-line"></span>
+                    <i class="fas fa-code"></i>
+                    <span class="divider-line"></span>
+                </div>
+                <div class="tags">
+                    <span class="tag"><i class="fas fa-laptop-code"></i>Developer</span>
+                    <span class="tag"><i class="fas fa-lightbulb"></i>Creator</span>
+                    <span class="tag"><i class="fas fa-rocket"></i>Innovator</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/mehedyhassanratul" class="link-card github" target="_blank">
+                <div class="card-content">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+            </a>
+            <a href="https://youtube.com/@TheApptimizer" class="link-card youtube" target="_blank">
+                <div class="card-content">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </div>
+            </a>
+            <a href="https://x.com/mehidy_hassan" class="link-card x-twitter" target="_blank">
+                <div class="link-content">
+                    <div class="icon-container">
+                        <div class="custom-x-logo">
+                            <span class="x-line-1"></span>
+                            <span class="x-line-2"></span>
+                            <span class="x-dot"></span>
+                        </div>
+                    </div>
+                    <span>X (Twitter)</span>
+                </div>
+            </a>
+            <a href="https://t.me/mehedyhassanratul" class="link-card telegram" target="_blank">
+                <div class="card-content">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </div>
+            </a>
+            <a href="https://facebook.com/mehedyhassanratul2" class="link-card facebook" target="_blank">
+                <div class="card-content">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </div>
+            </a>
+            <a href="https://instagram.com/mehedyhassanratul2" class="link-card instagram" target="_blank">
+                <div class="card-content">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </div>
+            </a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
